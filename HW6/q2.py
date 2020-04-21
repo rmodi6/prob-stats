@@ -18,7 +18,7 @@ with open('q2_sigma3.dat') as file:
 		print('{}\t{}'.format(a, b2))
 		sigma = math.sqrt(b2)
 		x_points = np.linspace(a - 3*sigma, a + 3*sigma, 100)
-		plt.plot(x_points, stats.norm.pdf(x_points, a, sigma), label='mu={:.2f} sigma={:.2f}'.format(a, sigma))
+		plt.plot(x_points, stats.norm.pdf(x_points, a, sigma), label='\u03BC={:.2f} \u03C3={:.2f}'.format(a, sigma))
 
 plt.title("q2_sigma3.dat")
 plt.xlabel("x")

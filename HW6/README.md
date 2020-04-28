@@ -30,3 +30,5 @@ We can observe that for the initial steps the variance is high meaning the bayes
 ![q2_sigma100.png](https://raw.githubusercontent.com/rmodi6/CSE544/master/HW6/q2_sigma100.png)
 
 We can observe that for each step the mean keeps on increasing constantly by ~0.04 (does not seem to be converging) and variance of the posterior distribution does not decrease much. The pdf of the posterior distribution of step 5 is very similar to that of step 1 just moved slightly towards right. The confidence (posterior interval) for the estimate of θ is pretty much the same for each step.
+
+(c) Comparing (a) and (b) we observe that bayesian inference works well when the variance (std. dev.) of the distribution of the samples is low with a converging value for mean with each progressing step. Incase of high variance of the samples’ distribution, the mean computed from the bayesian inference does not converge. 
